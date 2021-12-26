@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Steppe';
+    src: url('./Steppe-Regular.eot');
+    src: url('./Steppe-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./Steppe-Regular.woff2') format('woff2'),
+        url('./Steppe-Regular.woff') format('woff'),
+        url('./Steppe-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neucha';
+    src: url('./Neucha.eot');
+    src: url('./Neucha.eot?#iefix') format('embedded-opentype'),
+        url('./Neucha.woff2') format('woff2'),
+        url('./Neucha.woff') format('woff'),
+        url('./Neucha.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
