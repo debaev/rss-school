@@ -1,4 +1,4 @@
-export interface ToyCard {
+export interface IToyCard {
   num: string,
   name: string,
   count: string,
@@ -8,3 +8,10 @@ export interface ToyCard {
   size: string,
   favorite: boolean
 }
+
+export interface IRender {
+  render: () => string;
+}
+
+export type Callback<T> = (data?: T) => void;
+
